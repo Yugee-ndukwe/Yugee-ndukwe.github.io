@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: url(images/interior1.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+.wrapper{
+    width: 80%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 27px;
+}
+.logo{
+    border: solid 3px greenyellow;
+     width: 20%;
+     
+}
+.nav-bar{
+    width: 50%;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+li{
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    top: 70px;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(76, 76, 124);
+    /* box-shadow: 5px; */
+    color: #000;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 218, 218);
+    margin-top: 10px;
+}
+main .wrapper{
+    background-color: #fff;
+    padding-left: 7%;
+}
+.luxury{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.interior{
+    width: 100%;
+}
+.interior img{
+    width: 80%;
+}
+.second-luxury{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.terrace{
+    position: relative;;
+    width: 100%;
+    left: 50px;
+}
+.view img{
+    width: 80%;
+}
+p{
+    text-align: center;
+    padding-right: 5px;
+    width: 80%;
+}
+h2{
+    text-align: center;
+    width: 80%;
+}
+section{
+    background-color: rgb(226, 218, 218);
+    position: relative;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+h6{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.finish{
+    left: 10px;
+}
+.end button{
+    width: 60px;
+    border-radius: 0;
+    background-color: transparent;
+    border: #0001 2px solid;
+    text-align: center;
+    
+}
+.end button:hover{
+    box-shadow: 4px 4px 2px greenyellow;
+}
+footer{
+    width: 100%;
+    background-color: rgb(226, 218, 218);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer .wrapper{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.follow{
+    /* width: 100%; */
+    /* justify-content: flex-start; */
+    padding-left: 20px;
+}
+footer p{
+    /* justify-content: center; */
+}
+.close{
+    display: flex;
+}
+.pix{
+    display: flex;
+}
+.social{
+    width: 50%;
+    gap: 5px;
+}
+/* DESKTOP VIEW */
+@media (min-width:1200px){
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .wrapper{
+        width: 80%;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .wrapper{
+        width: 100%;
+    }
+}
+/* TABLET VIEW */
+@media (min-width:765px) and (max-width:1199px){
+
+}
+/* MOBILE VIEW */
+@media (max-width:575px)

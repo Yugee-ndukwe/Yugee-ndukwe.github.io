@@ -20,27 +20,39 @@ section{
     /* border: 2px solid black; */
     /* height: 700px; */
 }
+
 header{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 35px;
-    height: 100%;
+    display: flex;
     margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
-.logo{
-    display: flex;
-    justify-content: space-between;
+.header-image{
+    width: 40%;
 }
-.first{
-    border-radius: 47px;
-    width: 120px;
-    padding: 0,10px;
-    height: 35px;
-    background-color: white;
-    border: none;
+
+.header-image img{
+    width: 30%;
+    border: 1px sollid red;
 }
+
+.header-text{
+    width: 40%;
+    text-align: end;
+
+}
+
+.header-text button{
+     width: 120px;
+     border-radius: 47px;
+     background-color: white;
+     height: 30px;
+     border: none;
+}
+
+
+
 .chat{
     display: flex;
     justify-content: space-between;
@@ -256,26 +268,42 @@ li{
         width: 100%;
     }
     header{
+       justify-content: space-evenly;
+    }
+    
+    .header-image{
+        width: 40%;
+    }
+   
+    .header-image img{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
     }
-    .logo{
-         width: 30%;
+    
+    .header-text{
+        width: 30%;
     }
-    .first{
-         width: 100%; 
+    
+    .header-text button{
+        
     }
     .chat{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-    }
+        justify-content: center;
+    } 
+    .photo-mockups{
+        width: 50%; 
+     }
+     .photo-mockups img{
+         width: 80%;
+     }
     h1{
         width: 100%;
+        text-align: center;
     }
     .aim{
-        width: 100%;
+        width: 80%;
     }
     main{
         width: 100%;
@@ -286,15 +314,22 @@ li{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        align-items: center;
+    }
+    .synopsis{
+        text-align: center;
+        width: 100%;
     }
     .pix-grow{
-        width: 100%;
+        width: 80%;
         order: 1;
     }
     .grow-together{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    
     }
     .flowing{
         width: 100%;
@@ -302,10 +337,10 @@ li{
         flex-wrap: wrap;
     }
     .pix-convo{
-        width: 100%;
+        width: 80%;
     }
     .conversation{
-        width: 100%;
+        width: 80%;
     }
     .users{
         width: 100%;
@@ -313,11 +348,12 @@ li{
         flex-wrap: wrap;
     }
     .short-text{
-        width: 100%;
+        width: 80%;
         order: 2;
     }
     .last{
-        width: 100%;
+        width: 80%;
+        top: 30px;
     }
     footer{
         width: 100%;
