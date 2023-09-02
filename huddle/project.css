@@ -332,6 +332,7 @@ li{
     .synopsis{
         text-align: center;
         width: 100%;
+        margin-top: 20px;
     }
     .pix-grow{
         width: 80%;
