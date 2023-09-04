@@ -209,28 +209,34 @@ footer{
     width: 23%;
     /* background-color: white; */
     margin-bottom: 25px; 
+
 }
 .address{
     display: flex;
     justify-content: space-between;
     width: 50%;
+    /* font-size: 15px; */
+    font-weight: 100; 
+    font-size: 15px;
     /* margin-bottom: 10px; */
 }
 .list{
     display: flex;
     width: 30%;
     justify-content: space-between;
+    font-weight: 100;
+    font-size: 15px;
 }
 li{
     list-style: none;
 }
 .social{
-    border: solid 1px #f9f9f9;
+    border: solid 1px #f9f9f9; 
     margin: 3px;
     height: 20px;
     filter: invert(100%);
     /* background-color: #f9f9f9; */
-    border-radius: 20px;
+     border-radius: 20px; 
 }
 .message{
     display: flex;
@@ -337,7 +343,7 @@ li{
     .synopsis{
         text-align: center;
         width: 100%;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .pix-grow{
         width: 80%;
@@ -388,6 +394,7 @@ li{
     }
     .end{
         width: 100%;
+        padding-left: 10px;
     }
     .address{
         width: 80%;
