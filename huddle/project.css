@@ -215,8 +215,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    /* font-size: 15px; */
-    font-weight: 100; 
+    /* font-size: 15px; */ 
     font-size: 15px;
     /* margin-bottom: 10px; */
 }
@@ -224,7 +223,6 @@ footer{
     display: flex;
     width: 30%;
     justify-content: space-between;
-    font-weight: 100;
     font-size: 15px;
 }
 li{
@@ -394,7 +392,7 @@ li{
     }
     .end{
         width: 100%;
-        padding-left: 10px;
+        padding-left: 16px;
     }
     .address{
         width: 80%;
