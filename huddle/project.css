@@ -215,7 +215,6 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    /* font-size: 15px; */ 
     /* margin-bottom: 10px; */
 }
 .list{

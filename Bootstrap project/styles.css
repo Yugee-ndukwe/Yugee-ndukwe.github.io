@@ -1,0 +1,143 @@
+ .dropdown:hover .dropdown-menu {
+    background-color: gray;
+  }
+  .nav-link{
+    color:  #B3E442;
+  }
+  .btn-first{
+    background-color:  #B3E442;
+    border-radius: 25px;
+    width: 150px;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  /* .custom-image-first{
+    height: 20%;
+  }
+  .custom-image-first img{
+    height: 50%;
+  } */
+  .custom-caption{
+    font-size: 70px;
+    width: 50%;
+    position: absolute;
+    left: 1%; 
+  }
+  .custom-button{
+    background-color:  #B3E442;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 15px; */
+    font-size: 24px;
+  }
+  .btn-1{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 15px; */
+    font-size: 24px;
+
+  }
+  .btn-2{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 15px; */
+    font-size: 24px;
+  }
+  .container-fluid2{
+    background-color:#F6F5F2;
+  }
+  .row{
+    
+  }
+  .photo{
+    /* width: 90%; */
+  }
+  .col{
+    position: relative;
+  }
+  .img-text{
+    top: 25px;
+  }
+  .pix{
+    height: 400px;
+  }
+  .btn-3{
+   background-color:   #B3E442;
+   border-radius: 25px;
+   border: none;
+   text-decoration: underline;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 15px;
+   
+  }
+  li{
+    list-style: none;
+    padding-right: 4px; 
+    list-style-type: var(1%);
+  }
+   .custom-list:before{
+    content: "✔";
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 12px;
+  }
+  li .custom-list::after{
+    padding: 4px;
+  }
+  .custom-image{
+    height: 260px;
+  } 
+  .btn-A{
+    background-color:   #B3E442;
+   border-radius: 25px;
+   border: none;
+   width: 120px;
+   height: 50px;
+   text-decoration: underline;
+  }
+  .custom-image2{
+   width: 60%;
+  }
+  .custom-image{
+    
+  }
+
+  .footer_img{
+    width: 37%;
+  }
+  .footer_img_text{
+    width: 60%;
+  }
+  
+  .list{
+    color: #B3E442;
+  }
+  .add{
+    color: #B3E442;
+  }
+  .blog{
+    color: #B3E442;
+  }
+  .custom-image-second{
+    width: 59%;
+  }
+  /* .line:before{
+    height: 1px;
+    border: 1px solid black;
+    width: 20px;
+  } */
+  .btn-xl{
+    background-color: #B3E442;
+  }
+
+  .nav-link.active{
+    color: #B3E442;
+  }
